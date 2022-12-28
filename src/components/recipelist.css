@@ -1,0 +1,21 @@
+.dorayakis {
+  margin: 50px auto;
+  background-color: #f6f6f6;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.dorayakiName {
+  width: 90%;
+  text-align: left !important;
+  margin: 10px;
+}
+
+.detail {
+  background-color: white;
+  width: 90%;
+  text-align: left !important;
+  border: 1px solid #efefef;
+  margin: 0 10px 30px;
+  padding: 10px;
+}

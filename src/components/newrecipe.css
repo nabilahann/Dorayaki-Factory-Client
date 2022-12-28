@@ -1,0 +1,42 @@
+.inputResep {
+  margin: 50px auto;
+  background-color: #fafafa;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.containerBB {
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.containerFormBB {
+  padding: 10px;
+}
+
+.tempatbtnmin {
+  position: relative;
+}
+.minbtn {
+  position: absolute;
+  bottom: 0px;
+  background-color: yellow;
+}
+
+.addbtn {
+  margin-left: 10px;
+}
+
+.submitcontainer {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .tempatbtnmin {
+    position: static;
+  }
+
+  .minbtn {
+    position: static;
+  }
+}

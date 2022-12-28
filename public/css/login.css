@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: #d9ecd0;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+#navbar{
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+}
+
+/* ---CONTENT--- */
+.content-container {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+
+    vertical-align: middle;
+    /* box-sizing: border-box; */
+    padding: 50px;
+}
+
+.login {
+    width: 300px;
+    margin: auto;
+
+    border-radius: 50px;
+    color: #6e382e;
+    background-color: #ffffff;
+    box-shadow: 0.2px 0.2px 3px #b8874f;
+    padding-top: 20px;
+}
+
+h1 {
+    color: #6e382e;
+    text-align: center;
+    padding-top: 25px;
+
+    text-decoration: underline;
+    text-decoration-color: #b8874f;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 5px;
+}
+
+form {
+    padding: 50px;
+    text-align: left;
+}
+
+form input[type=text], form input[type=password] {
+    margin: 5px 0;
+    width: 85%;
+    padding: 5px 10px;
+    border: 1px solid #b8874f;
+}
+
+form input[type=text]:focus, form input[type=password]:focus {
+    outline: none;
+    border: 1px solid #1824d1;
+}
+
+form input[type=submit] {
+    display: block;
+    margin: 40px auto 0;
+    width: 50%;
+    padding: 10px 10px;
+
+    border: 1px solid #6e382e;
+    border-radius: 15px;
+    background-color: #6e382e;
+    color: #FFFFFF;
+}
+
+form input[type=submit]:hover, form input[type=submit]:focus {
+    border: 1px solid #1824d1;
+    color: #ffffff;
+    background-color: #1824d1;
+    cursor: pointer;
+}
+
+form span {
+    display: block;
+    color: red;
+    text-align: right;
+    margin-right: 10px;
+    font-size: small;
+}
+
+form p {
+    display: inline;
+    margin-right: 10px;
+}
+
+form a {
+    text-decoration: none;
+    color: #b8874f;
+}
+
+form a:hover, form a:active {
+    color: #1824d1;
+    text-decoration: underline;
+    text-decoration-color: #1824d1;
+
+}
+
+.inline-div{
+    display: flex;
+}
+
+.btn-search{
+    width: 10%;
+    border-radius: 5%;
+}
+
+.btn-logout{
+    background-color: transparent;
+    text-decoration: none;
+    border-style: none;
+}
+
+/* ---RESPONSIVE--- */
+@media screen and (max-width: 800px) {
+    #logo-login{
+        width: 60%;
+        height: 60%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 20px 0;
+    }
+
+}

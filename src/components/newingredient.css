@@ -1,0 +1,85 @@
+.container {
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #6e382e;
+    text-align: center;
+    margin: 50px 0;
+
+    text-decoration: underline;
+    text-decoration-color: #b8874f;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 5px;
+}
+
+.tambah-bahan {
+    width: 400px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 50px;
+    color: #6e382e;
+    background-color: #fffde6;
+    box-shadow: 0.2px 0.2px 3px #b8874f;
+    text-align: left;
+}
+
+.stok {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stok label {
+    display: block;
+}
+
+input[type=text], input[type=number] {
+    margin: 5px 0 25px;
+    width: 95%;
+    padding: 5px 10px;
+    border: 1px solid #b8874f;
+}
+
+input[type=text]:focus, input[type=number]:focus{
+    outline: none;
+    border: 1px solid #f7aeb9;
+}
+
+input[type="number"] {
+    width: 60%;
+}
+
+input[type="button"] {
+    background-color: #778A35;
+    color: #efefef;
+    font-size: 20px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #787878;
+    margin: 0 5%;
+}
+
+button {
+    display: block;
+    margin: 40px auto 0;
+    width: 50%;
+    padding: 10px 10px;
+
+    border: 1px solid #6e382e;
+    border-radius: 15px;
+    background-color: #6e382e;
+    color: #FFFFFF;
+}
+
+button:hover, button:focus {
+    border: 1px solid #f7aeb9;
+    color: #000000;
+    background-color: #f7aeb9;
+    cursor: pointer;
+}

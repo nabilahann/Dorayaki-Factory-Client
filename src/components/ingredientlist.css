@@ -1,0 +1,46 @@
+* {
+    color: #6e382e
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table, thead, th, tr, td {
+    border: 1px solid #6e382e;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 15px;
+}
+
+td {
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    /* width: 50%; */
+    padding: 10px 10px;
+
+    border: 1px solid #6e382e;
+    border-radius: 15px;
+    background-color: #6e382e;
+    color: #FFFFFF;
+}
+
+button:hover, button:focus {
+    border: 1px solid #f7aeb9;
+    color: #000000;
+    background-color: #f7aeb9;
+    cursor: pointer;
+}
